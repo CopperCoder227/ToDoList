@@ -31,7 +31,8 @@
       <div class="row justify-content-center">
         <div class="col-md-8 col-lg-6">
           <div class="h1 text-center mb-4">To-Do List</div>
-          <div class="row">
+          <div class="row g-1">
+            <!-- g-# is the tag for a gutter, 1-2 is smaller, 4-5 is larger ~ changes the in-between on btn thingy-->
             <div class="col-8">
               <input
                 type="text"
@@ -40,8 +41,13 @@
                 placeholder="Enter any task!"
               />
             </div>
-            <div class="col-4"></div>
+            <div class="col-4">
+              <button id="addTaskButton" class="btn btn-primary w-100">
+                Add a Task!
+              </button>
+            </div>
           </div>
+          <ul id="taskList" class="list-group mt-3"></ul>
         </div>
       </div>
     </main>
