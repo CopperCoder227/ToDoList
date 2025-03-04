@@ -4,10 +4,15 @@ html {
   }
   
   @font-face {
-    font-family: Hand;
-    src: url(the_hand/The\ Hand.ttf);
+    font-family: Hacked;
+    src: url(hacked-28425/Hacked-KerX.ttf);
   }
   
+  .word{
+    font-family: Hacked;
+  }
+
+
   body {
   background: url(imgs/backdrop.jpg);
   background-size: cover;
@@ -15,7 +20,10 @@ html {
   background-attachment: fixed;
   background-position: center;
   text-align: center;
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 2px 5px #ffffff;
+  color: #de2221;
+  }
+
+  li{
+    font-family: Hacked;
   }
   
