@@ -27,3 +27,42 @@ html {
     font-family: Hacked;
   }
   
+  .helpy{
+    height: 30%;
+    width: 10%;
+  }
+ 
+
+
+/* oher btn */
+  .add {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .add:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .add:active {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+  }
+
+
+  /* clear btn */
+  .clear {
+    background-color: rgb(210, 0, 230);
+    color: white;
+  }
+  
+  .clear:hover {
+    background-color: rgb(170, 0, 185);
+    color: white;
+  }
+  
+  .clear:active {
+    background-color: rgb(106, 0, 116) !important;
+    color: white !important;
+  }
