@@ -1,4 +1,4 @@
-let userName = prompt("Enter Name:");
+//let userName = prompt("Enter Name:");
 
 //Initialize empty array element called task
 let tasks = [];
@@ -40,6 +40,7 @@ function displayTasks() {
 
     taskList.appendChild(li);
   });
+  document.getElementById("taskAmount").innerText = `Tasks: ${tasks.length}`;
 }
 function removeTask(index) {
   tasks.splice(index, 1);
@@ -57,4 +58,5 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-// add a "done" btn a/ add dancing helpy/ change mike to do a name and figure out if when you do mike it change to golden freddy bc
+// find way to: figure out if when you do mike it change to golden freddy bg
+//MAYBE figure out hot to do name thing
