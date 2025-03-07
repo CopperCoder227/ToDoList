@@ -1,3 +1,5 @@
+let userName = prompt("Enter Name:");
+
 //Initialize empty array element called task
 let tasks = [];
 
@@ -54,3 +56,5 @@ window.addEventListener("keydown", (event) => {
     addingTask();
   }
 });
+
+// add a "done" btn a/ add dancing helpy/ change mike to do a name and figure out if when you do mike it change to golden freddy bc
